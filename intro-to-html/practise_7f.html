@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .pfp {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            object-position: 70%;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            vertical-align: middle;
+
+        }
+
+        .message {
+            font-family: roboto;
+            padding: 10px 15px;
+            border-radius: 25px;
+            width: 200px;
+            height: 10px;
+            vertical-align: middle;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+            border: none;
+        }
+        .send{
+            font-family: roboto;
+            margin-left: 30px;
+            vertical-align:middle;
+            background-color: rgb(68, 172, 231);
+            margin-top: 6px;
+            width: 50px;
+            height: 30px;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <img class="pfp" src="thumbnails/profile_pic.jpg" alt="">
+    <input class="message" type="text" placeholder="What's happening?">
+    <button class="send">
+        Send
+    </button>
+</body>
+
+</html>

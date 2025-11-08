@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            font-family: roboto;
+            margin: 0;
+
+
+        }
+
+        .flashcard-wrapper {
+            width: 400px;
+            height: 85px;
+            border-style: solid;
+            border-width: 1px;
+
+            display: block;
+        }
+
+        .profile-pic {
+            display: inline-block;
+
+            height: 85px;
+            vertical-align: middle;
+            width: 60px;
+            text-align: center;
+            line-height: 85px;
+            margin-left: 3px;
+        }
+
+        .profile-detail {
+            display: inline-block;
+            height: 85px;
+            width: 250px;
+            /* match height for easy centering */
+            vertical-align: middle;
+            text-align: center;
+            /* centers the img horizontally */
+        }
+
+        .follow {
+            display: inline-block;
+            vertical-align: middle;
+            height: 85px;
+            width: 70px;
+            margin: 0;
+        }
+
+        .pfp {
+            height: 55px;
+            width: 55px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: inline-block;
+            vertical-align: middle;
+            /* perfect circle */
+            
+
+        }
+        .col1{
+            margin-top: 4px;
+        }
+
+        .follow-button {
+            height: 30px;
+            width: 60px;
+            color: white;
+            background-color: skyblue;
+            font-family: roboto;
+            border: none;
+            border-radius: 7px;
+            padding-bottom: 3px;
+            vertical-align: middle;
+            margin-top: 28px;
+
+        }
+
+        .dis1 {
+            padding-top: 5px;
+            font-weight: bold;
+            font-size: 20px;
+            padding-right: 190px;
+            width: 250px;
+            text-align: left;
+
+        }
+
+        .dis2 {
+            color: gray;
+            text-align: left;
+            font-size: 13px;
+            padding-top: 6px;
+            padding-right: 190px;
+            width: 250px;
+        }
+
+        .dis3 {
+            color: gray;
+            text-align: left;
+            font-size: 13px;
+            padding-top: 6px;
+            width:250px;
+            padding-right: 190px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="flexbox-grid">
+
+
+
+
+
+    <div class="flashcard-wrapper">
+        <div class="profile-pic">
+            <img class="pfp" src="thumbnails/cat2.jpg" alt="">
+        </div>
+        <div class="profile-detail">
+            <div class="col1">
+                <p class="dis1">
+                    Oliver
+                </p>
+            </div>
+            <div class="col2">
+                <p class="dis2">
+                    the Cat
+                </p>
+            </div>
+            <div class="col3">
+                <p class="dis3">
+                    Popular
+                </p>
+            </div>
+
+
+        </div>
+        <div class="follow">
+            <button class="follow-button">follow</button>
+        </div>
+    </div>
+
+        <div class="flashcard-wrapper">
+        <div class="profile-pic">
+            <img class="pfp" src="thumbnails/cat1.jpg" alt="">
+        </div>
+        <div class="profile-detail">
+            <div class="col1">
+                <p class="dis1">
+                    Mimi
+                </p>
+            </div>
+            <div class="col2">
+                <p class="dis2">
+                    sleepy Cat
+                </p>
+            </div>
+            <div class="col3">
+                <p class="dis3">
+                    Ppular
+                </p>
+            </div>
+
+
+        </div>
+        <div class="follow">
+            <button class="follow-button">follow</button>
+        </div>
+    </div>
+
+        <div class="flashcard-wrapper">
+        <div class="profile-pic">
+            <img class="pfp" src="thumbnails/cat3.jpg" alt="">
+        </div>
+        <div class="profile-detail">
+            <div class="col1">
+                <p class="dis1">
+                    Oliver
+                </p>
+            </div>
+            <div class="col2">
+                <p class="dis2">
+                    Rex
+                </p>
+            </div>
+            <div class="col3">
+                <p class="dis3">
+                    Happy Bull Dog
+                </p>
+            </div>
+
+
+        </div>
+        <div class="follow">
+            <button class="follow-button">follow</button>
+        </div>
+    </div>
+
+</div>
+
+</body>
+
+</html>

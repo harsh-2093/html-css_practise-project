@@ -1,0 +1,79 @@
+        .youtube-grid {
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            row-gap: 10px;
+
+        }
+
+
+
+        .youtube-wrapper {
+            width: 100%;
+            height: 250px;
+            display: inline-block;
+
+        }
+
+        .thumbnail-pic {
+            width: 300px;
+            height: 160px;
+        }
+
+        .inner-layout-1 {
+            width: 300px;
+            height: 160px;
+
+        }
+
+        .inner-layout-1-2 {
+            width: 300px;
+            height: 60px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .channel-pfp {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .inner-layout-2 {
+            width: 52px;
+
+            vertical-align: top;
+        }
+
+        .inner-layout-2-2 {
+            width: 230px;
+            padding-left: 0px;
+
+        }
+
+        .inner-layout-2,
+        .inner-layout-2-2 {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .inner-layout-3 {
+
+            font-weight: bold;
+            font-size: 15px;
+
+        }
+
+        .inner-layout-3-2 {
+
+            margin-top: 4px;
+            font-size: 13px;
+            color: rgb(148, 147, 147);
+        }
+
+        .inner-layout-3-3 {
+            font-size: 13px;
+            margin-top: 5px;
+            color:rgb(148, 147, 147);
+        }
+

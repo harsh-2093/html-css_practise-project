@@ -1,0 +1,19 @@
+p{
+    font-family: Montserrat;
+}
+.model{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.des{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+   
+
+}
+ .ud:hover{
+        text-decoration: underline;
+    }
