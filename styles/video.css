@@ -1,11 +1,18 @@
         .youtube-grid {
             margin-top: 10px;
+
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: 1fr 1fr 1fr 1fr;
             row-gap: 10px;
+            column-gap: 30px;
 
         }
-
+        .right-column{
+            display: inline-block;
+            width: 920px;
+            margin: 0;
+            vertical-align: top;
+        }
 
 
         .youtube-wrapper {

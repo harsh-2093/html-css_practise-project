@@ -1,0 +1,23 @@
+.left-tray {
+
+    display: inline-block;
+    height: 600px;
+    width: 49px;
+    position: sticky;
+    top: 55px;
+    left: 0;
+
+
+
+}
+.did2{
+    height: 90px;
+    width: 50px;
+    margin-left: 1px;
+    border: none;
+    background-color: rgb(255, 253, 253);
+}
+
+.did3 {
+    width: 25px;
+}
