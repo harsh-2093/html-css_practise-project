@@ -1,11 +1,13 @@
 .left-tray {
 
     display: inline-block;
-    height: 600px;
+    height: calc(100vh - 55px);
+    width: 75px;    
     width: 49px;
-    position: sticky;
+    position: fixed;
     top: 55px;
     left: 0;
+    bottom: 500px;
 
 
 
